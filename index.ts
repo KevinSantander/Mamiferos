@@ -8,7 +8,7 @@ let herbivorous = new Herbivorous('Jirafa','vegetacion',4,70);
 let omnivores = new Omnivores('Chancho','carne y vejetales',4,20);
 
 carnivorous.setMaximumSpeed();
-herbivorous.getMaximumSpeed();
+herbivorous.setMaximumSpeed();
 omnivores.setMaximumSpeed();
 omnivores.setEat('vejetales');
 

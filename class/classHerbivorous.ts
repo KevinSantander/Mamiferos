@@ -7,8 +7,8 @@ export class Herbivorous extends Mammals {
     super(pName, pEat, pPaws, pDisplace)
   }
 
-  public setMaximumSpeed(paramDesplace: number): void {
-       this.displace_KM = paramDesplace;
+  public setMaximumSpeed(): void {
+       this.displace_KM = 60;
   }
 
 }
