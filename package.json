@@ -1,0 +1,23 @@
+{
+  "name": "mamiferos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinSantander/Mamiferos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinSantander/Mamiferos/issues"
+  },
+  "homepage": "https://github.com/KevinSantander/Mamiferos#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
