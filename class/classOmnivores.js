@@ -22,9 +22,6 @@ var Omnivores = /** @class */ (function (_super) {
     function Omnivores(pName, pEat, pPaws, pDisplace) {
         return _super.call(this, pName, pEat, pPaws, pDisplace) || this;
     }
-    Omnivores.prototype.setEat = function (paramEat) {
-        this.eat = paramEat;
-    };
     Omnivores.prototype.setMaximumSpeed = function () {
         this.displace_KM = 17;
     };
